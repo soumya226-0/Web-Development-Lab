@@ -1,32 +1,20 @@
 
-:root {
-    --primary-color: #5b4bdb;
-    --secondary-color: #e8e5ff;
-    --accent-color: #ffb86b;
-    --text-color: #292638;
-    --background-color: #f8f7fc;
-
-    --small-space: 10px;
-    --large-space: 25px;
-
-    --main-font: Arial, sans-serif;
-}
 
 body {
     margin: 0;
-    font-family: var(--main-font);
-    color: var(--text-color);
-    background-color: var(--background-color);
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
 }
 
 header, footer {
     text-align: center;
-    padding: var(--large-space);
-    background-color: var(--secondary-color);
+    padding: 20px;
+    background-color: lightgray;
 }
 
 main {
-    padding: var(--large-space);
+    padding: 20px;
 }
 
 section {
@@ -35,7 +23,7 @@ section {
 
 .colors {
     display: flex;
-    gap: var(--small-space);
+    gap: 10px;
 }
 
 .color-box {
@@ -44,20 +32,20 @@ section {
 }
 
 .primary {
-    background-color: var(--primary-color);
+    background-color: blue;
     color: white;
 }
 
 .secondary {
-    background-color: var(--secondary-color);
+    background-color: lightgray;
 }
 
 .accent {
-    background-color: var(--accent-color);
+    background-color: orange;
 }
 
 h1, h2 {
-    font-family: var(--main-font);
+    font-family: Arial, sans-serif;
 }
 
 p {
@@ -66,11 +54,11 @@ p {
 }
 
 .spacing-box {
-    padding: var(--small-space);
-    background-color: var(--secondary-color);
-    margin-bottom: var(--small-space);
+    padding: 10px;
+    background-color: lightgray;
+    margin-bottom: 10px;
 }
 
 .large {
-    padding: var(--large-space);
+    padding: 20px;
 }
